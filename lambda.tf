@@ -3,7 +3,7 @@ module "profile_generator_lambda" {
   version = "2.7.0"
   # insert the 28 required variables here
   function_name = "profile-generator-lambda"
-  description   = "Generates a new profiles changed"
+  description   = "Generates a new profiles changed. Happy with the coding!!"
   handler       = "index.handler"
   runtime       = "nodejs14.x"
   source_path   = "${path.module}/resources/profile-generator-lambda"
